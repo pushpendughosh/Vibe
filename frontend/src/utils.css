@@ -1,0 +1,15 @@
+.zoomer{
+    transition: all 0.2s ease-in-out !important;
+}
+.zoomer:hover{
+    transform:scale(1.1);
+}
+.text-tiny{
+    font-size: 0.65rem;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
